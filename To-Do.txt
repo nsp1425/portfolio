@@ -4,4 +4,16 @@
         - About
         - Projects
         - Contact
+- Projects: 
+    - Get Pictures for each Projects
+    - Fix links
+        - Publish TRades
+
+- Do Contact
+
+- Finish Footer
+
+- Fix Background colors
+
+- Setup On line
     
