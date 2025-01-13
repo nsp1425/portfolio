@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Makes all element start with with default margin and padding reset and must add this in plugins in the tailwin config fiel */
+@layer base {
+  * {
+    @apply m-0 p-0;
+  }
+}

@@ -1,0 +1,7 @@
+- Finish Navbar
+    - Fix the links of 
+        - Name
+        - About
+        - Projects
+        - Contact
+    

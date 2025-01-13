@@ -1,7 +1,13 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 const App = () => {
   return (
-    <div className = "text-3xl">App</div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
+};
 
-export default App
+export default App;
