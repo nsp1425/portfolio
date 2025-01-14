@@ -1,8 +1,6 @@
-import { Link } from "react-scroll";
-
 const NavItems = () => {
   const linkStyle =
-    "text-black text-2  xl hover:text-gray-500 hover:underline block p-2 text-center  transition-all duration-300 ease-in-out lg:text-3xl md:text-2xl";
+    "text-2xl hover:text-gray-500 hover:underline block p-2 transition-all duration-300 ease-in-out lg:text-3xl ";
   return (
     // absolute: Positions the dropdown container relative to the closest positioned ancestor
     // top-full: Places the dropdown container outside and below the parent element.
@@ -10,15 +8,23 @@ const NavItems = () => {
     // space-y-1: Adds vertical spacing of 4px between the links.
     <>
       {/* <div className="flex"> */}
-      <Link className={linkStyle} to="about">
-        About
-      </Link>
-      <Link className={linkStyle} to="projects">
-        Projects
-      </Link>
-      <Link className={linkStyle} to="contact">
-        Contact
-      </Link>
+      <ul className="flex flex-col gap-4 md:flex-row md:gap-8 list-none">
+        <li>
+          <a href="#about" className={linkStyle}>
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#projects" className={linkStyle}>
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#contact" className={linkStyle}>
+            Contact
+          </a>
+        </li>
+      </ul>
     </>
   );
 };

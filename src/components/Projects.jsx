@@ -3,7 +3,7 @@ import { projectsInfo } from "../constants";
 
 const Projects = () => {
   return (
-    <section id="projects" className="relative border border-red-500">
+    <section id="projects" className="relative border border-red-500 mt-12">
       <p className="text-center ">Browse My Recent</p>
       <h1 className="text-xl text-center font-bold mb-1 md:text-3xl">
         Projects
