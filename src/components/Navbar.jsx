@@ -11,14 +11,14 @@ const Navbar = () => {
             item-center:        Vertically aligns the child elements within the height of the navbar
             justify-between:    Positions the child elements at opposite ends of the navbar 
         */}
-      <div className="flex items-center justify-around h-[17vh] w-full ">
+      <div className="flex items-center justify-between px-4 md:justify-around h-[12vh] w-full ">
         {/* Left: Name */}
         <div className="text-xl text-center text-black cursor-default lg:text-3xl md:text-2xl">
           Sajeevan Paramsothy
         </div>
 
         <div
-          className="text-3xl cursor-pointer  md:hidden "
+          className="text-3xl cursor-pointer relative inline-block  md:hidden "
           onClick={() => setIsOpenMenu((prevState) => !prevState)}
         >
           {isOpenMenu ? <FaTimes /> : <FaBars />}
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpenMenu && (
-        <div className="md:hidden ">
+        <div className="md:hidden absolute right-0 w-fit bg-white overflow-hidden transition-all duration-300 ease-in-out border border-green-500">
           <NavItems />
         </div>
       )}
