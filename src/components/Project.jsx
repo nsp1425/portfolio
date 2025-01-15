@@ -1,10 +1,19 @@
 import { FaGithub } from "react-icons/fa";
 import { DiBitbucket } from "react-icons/di";
+import tradingview_logo from "../assets/tradingview_logo.png";
 
 const LogoRenderer = ({ link }) => {
   // Determine which icon to render based on the string
   if (link.toLowerCase().includes("bitbucket")) {
     return <DiBitbucket className="h-6 w-6 mr-2" />;
+  } else if (link.toLowerCase().includes("tradingview")) {
+    return (
+      <img
+        src={tradingview_logo}
+        alt="My Github profile"
+        className="h-6 w-6 mr-2"
+      />
+    );
   } else {
     return <FaGithub className="h-6 w-6 mr-2" />;
   }
