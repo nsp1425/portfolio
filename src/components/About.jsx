@@ -50,9 +50,7 @@ const About = () => {
               Download CV
             </a>
             <a
-              href={resume}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className=" text-center border-[0.1rem] border-gray-700 bg-gray-700 text-white hover:bg-black hover:text-white cursor-pointer transition-all duration-300 font-semibold py-4 w-32 rounded-2xl"
             >
               Contact Info
