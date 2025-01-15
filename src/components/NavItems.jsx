@@ -1,6 +1,6 @@
 const NavItems = () => {
   const linkStyle =
-    "text-2xl hover:text-gray-500 hover:underline block p-2 transition-all duration-300 ease-in-out lg:text-3xl ";
+    "text-3xl text-white hover:text-gray-500 hover:underline block p-2 transition-all duration-300 ease-in-out md:text-3xl lg:text-4xl";
   return (
     // absolute: Positions the dropdown container relative to the closest positioned ancestor
     // top-full: Places the dropdown container outside and below the parent element.
