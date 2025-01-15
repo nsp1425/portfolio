@@ -39,7 +39,7 @@ export const projectsInfo = [
     image: dig,
     technologies: "Java, SQLite, Animation Frameworks",
     description:
-      "This is an online grocery store system featuring user authentication, product catalogs, and cart management. The project included dynamic back-end functionality for product management, enabling add, edit, and delete operations using PHP and SQL. Additionally, responsive designs were created with HTML5 and CSS to enhance the user experience, while database architecture and cart functionality were optimized to deliver a seamless shopping experience.",
+      "I worked on a team project to create a Depth Illusion Generator (DIG), a program that generates depth illusions based on customizable shapes like circles and triangles. Users can modify various features, such as rotation, axis, anchor points, and colors, and save their designs in a custom library for future editing. Built using Java and SQLite, the project included figure animations and was recognized by the dean of the computer science department at Vanier College.",
     link: "https://bitbucket.org/speedy-gonzales/speedy-gonzales/src/master/",
   },
   {
@@ -48,7 +48,7 @@ export const projectsInfo = [
     image: tradingview,
     technologies: "Pine Script, TradingView.",
     description:
-      "This is an online grocery store system featuring user authentication, product catalogs, and cart management. The project included dynamic back-end functionality for product management, enabling add, edit, and delete operations using PHP and SQL. Additionally, responsive designs were created with HTML5 and CSS to enhance the user experience, while database architecture and cart functionality were optimized to deliver a seamless shopping experience.",
+      "I created custom trading indicators and strategies using Pine Script on TradingView to help analyze financial markets. These tools allowed for backtesting strategies, managing risk more effectively, and identifying market trends. This project helped me improve my understanding of how markets work and develop skills in technical analysis and algorithmic trading, all while enhancing my programming abilities in Pine Script.",
     link: "https://www.tradingview.com/u/nsp1425/#published-scripts",
   },
 ];
