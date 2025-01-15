@@ -1,4 +1,3 @@
-import project1 from "../assets/project-1.png";
 import cnn from "../assets/cnn.png";
 import dig from "../assets/dig.png";
 import tradingview from "../assets/tradingview.png";
