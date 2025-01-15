@@ -1,19 +1,36 @@
-- Finish Navbar
-    - Fix the links of 
-        - Name
-        - About
-        - Projects
-        - Contact
-- Projects: 
+- Finish Navbar [Done]
+    - Text Colors
+    - Text Sizes
+    - Fix the links of [Done]
+        - Name [Done]
+        - About [Done]
+        - Projects [Done]
+        - Contact [Done]
+- Projects:
+    - Text Colors 
+    - background Container Colors 
     - Get Pictures for each Projects
     - Fix links
-        - Publish TRades
+        - Publish Trades
 
-- Do Contact
+- Do Contact 
+    - Text Colors
+    - Button Colors
+    - Add Extra animations in Contact Page
 
-- Finish Footer
+- Finish Footer [Done]
+
+- Finish Hero:
+    - Text Size
+    - Text Color
 
 - Fix Background colors
+    - Fix the color settings [Done]
+    - Add the mouse and arrow down [Done]
 
-- Setup On line
+- Finish About [Done]
+
+- Add Extra animations in Contact Page
+
+- Setup Online
     
